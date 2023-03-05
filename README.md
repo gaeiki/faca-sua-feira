@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+<h1 align="center">
+    Faça sua Feira - React Router DOM
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+Gabriel Eiki Oshiro
+</h2>
 
-## Available Scripts
+<p align="center">
+ <a href="#-about-the-project">About</a> •
+ <a href="#-functionalities">Functionalities</a> •
+ <a href="#-technologies">Technologies</a> •
+ <a href="#-author">Author</a>
+ <!-- <a href="#user-content--licença">Licence</a> -->
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+## 💻 About the project
+<p align="justify">
+🚀 Faça sua feira é uma aplicação didática, originalmente criada pela escola Alura e que tem o objetivo de apresentar uma interface de compra de produtos de horti-fruti. O projeto foi desenvolvido durante o curso de React Context, biblioteca utilizada para criar contextos dentro da aplicação e assim facilitar o uso de estados entre componentes e páginas. Além disso, também foi utilizado o React Router DOM, para criar rotas dentro da SPA.
+</p>
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🌐 Access the project
+https://ola-mundo-three-phi.vercel.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Functionalities
 
-### `yarn test`
+- [x] Páginas dinâmicas utilizando rotas;
+- [x] Componetes reutilizados em toda a aplicação;
+- [x] Funcionalidade de acrescentar diversos e repetidos produtos no carrinho;
+- [x] Escolha de forma de pagamento;
+- [x] Cálculo do saldo final da compra;
+- [x] Contextos reutilizados e funcionais em diferentes rotas;
+- [x] Finalização de compra;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Soon
 
-### `yarn build`
+- [ ] Modal carrinho;
+- [ ] Validação de formulário;
+- [ ] Utilização de serviços externos;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ## 🎨 Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O layout da aplicação está disponível no Figma:
 
-### `yarn eject`
+<a href="https://www.figma.com/file/nDTrIQxTu6aldQG0o0iAbj/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router?node-id=38%3A717&t=xpmwOGTCDZJpuaWi-0">
+  <img alt="" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 🧭 Running the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone este repositório
+$ git clone https://github.com/gaeiki/faca-sua-feira.git
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd faca-sua-feira
+# Instale as dependências
+$ npm install
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🛠 Technologies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
+#### **Website**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[ReactJS](https://reactjs.org/)**
+- **[React Router Dom](https://reactrouter.com/en/main)**
+- **[React Context](https://reactjs.org/docs/context.html)**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### **Utilities**
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Documentação do React: **[React Documentation](https://create-react-app.dev/docs/adding-a-stylesheet/)**
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+<a href="https://www.instagram.com/gaeiki/">
+ <img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/64814663?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Gabriel Eiki</b></sub></a> <a href="https://www.linkedin.com/in/gabriel-eiki-oshiro-07b324b0/" title="Gabriel Eiki Oshiro">🚀</a>
+ <br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![Linkedin Badge](https://img.shields.io/badge/-GabrielEiki-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/gabriel-eiki-oshiro-07b324b0/)
+[![Github Badge](https://img.shields.io/badge/-GabrielEiki-161b22?style=flat-square&logo=Github&logoColor=white&link=https://github.com/gaeiki)](https://github.com/gaeiki)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ## 📝 Licença
+Desenvolvido por [Alura](https://www.alura.com.br/).
+--- -->
